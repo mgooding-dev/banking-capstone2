@@ -1,0 +1,9 @@
+To Do:
+- Unit testing
+- Try/catch blocks
+- Move sendBucks mess to new class/method
+
+- Balance testing for setBalance()
+
+
+Bugs:

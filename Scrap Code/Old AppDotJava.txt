@@ -1,0 +1,49 @@
+Starting on Line 93:  App.java
+
+		// System.out.println(currentUser.getToken());
+		// AuthenticatedUser authenticatedUser = new AuthenticatedUser();
+
+
+Starting Line 148: App.java
+
+
+
+		/* int sendToUser = consoleservice.userInput("Choose a user by id") */
+		/*getAllUsers();
+		boolean valid = true;
+		while(valid){
+			;
+			if(selectUser == 0){
+				valid = false;
+			}
+
+
+			Transfer transfer = new Transfer();
+			transfer.setAmount(transferAmount);
+			transfer.setAccountTo(selectUser);
+			transfer.setAccountFrom(currentUser.getUser().getId());
+
+
+
+
+			HttpHeaders httpHeaders = new HttpHeaders();
+			httpHeaders.setBearerAuth(currentUser.getToken());
+			HttpEntity<Transfer> entity = new HttpEntity<>(transfer ,httpHeaders);
+
+			Balance balance = restTemplate.exchange(API_BASE_URL + "/balance/" +
+							currentUser.getUser().getId(), HttpMethod.GET,
+					entity, Balance.class).getBody();
+			BigDecimal accountBalance = balance.getBalance();
+
+			if(accountBalance.compareTo(transferAmount) > -1) {
+				System.out.println("I did the if thing");
+				balance.setBalance(accountBalance.subtract(transferAmount));
+				System.out.println("133");
+				  = restTemplate.exchange(API_BASE_URL + "/balance/" +
+								currentUser.getUser().getId(), HttpMethod.PUT, entity,
+						Balance.class).getBody();
+				System.out.println(balance.getBalance());
+				valid = false;*/
+//			}
+//			/*user@sendtouser balance += transferamount*/
+//		}
